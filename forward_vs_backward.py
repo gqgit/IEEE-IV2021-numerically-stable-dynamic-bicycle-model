@@ -151,8 +151,8 @@ if __name__ == "__main__":
     ax9.set_xlabel('time (s)', fontdict={'family':family,'size': FONT_SIZE})
     ax9.set_ylabel('lateral velocity (m/s)', fontdict={'family':family,'size': FONT_SIZE} )
     ax9.set_ylim(y_lim_v)
-    plt.xticks(fontproperties = 'Times New Roman', size = FONT_SIZE_)
-    plt.yticks([0.0,0.4,0.8,1.2],fontproperties = 'Times New Roman', size = FONT_SIZE_)
+    plt.xticks(fontproperties = family, size = FONT_SIZE_)
+    plt.yticks([0.0,0.4,0.8,1.2],fontproperties = family, size = FONT_SIZE_)
     ax9.legend(loc='center right',prop={'family': family,'size': FONT_SIZE_})
     
     ax10 = F2.add_subplot(1,2,2)
@@ -162,8 +162,8 @@ if __name__ == "__main__":
     ax10.set_xlabel('time (s)', fontdict={'family':family,'size': FONT_SIZE})
     ax10.set_ylabel('yaw rate (rad/s)', fontdict={'family':family,'size': FONT_SIZE});
     ax10.set_ylim(y_lim_w)
-    plt.xticks(fontproperties = 'Times New Roman', size = FONT_SIZE_)
-    plt.yticks([0.0,0.4,0.8,1.2],fontproperties = 'Times New Roman', size = FONT_SIZE_)
+    plt.xticks(fontproperties = family, size = FONT_SIZE_)
+    plt.yticks([0.0,0.4,0.8,1.2],fontproperties = family, size = FONT_SIZE_)
     legend = ax10.legend(loc='upper right',prop={'family': family,'size': FONT_SIZE_})
 
     
