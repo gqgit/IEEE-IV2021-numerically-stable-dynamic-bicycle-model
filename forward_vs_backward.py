@@ -33,7 +33,7 @@ def dynamic_linear_backward(x0,u0,T):
     '''
     dynamic 3DoF bicycle model, analytical, defferentiable.
     linear tire sideslip force, with stiffness estimation: kf and kr.
-    the discretization is a tailored method inspired (but not exactly) backward Euler method.
+    the discretization is a tailored method inspired by (but not exactly be) backward Euler method.
     '''
     
     x1 = np.zeros(len(x0))
