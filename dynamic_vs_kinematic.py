@@ -179,9 +179,9 @@ if __name__ == "__main__":
     
     plt.tight_layout()
     
-    print('spped:       ',speed)
-    print('err_dyna:    ',err_back_rms[-1])
-    print('err_kine:    ',err_forw_rms[-1])
+    print('      speed:       ',speed)
+    print('   err_dyna:    ',err_back_rms[-1])
+    print('   err_kine:    ',err_forw_rms[-1])
     print('improved by: ',(err_forw_rms[-1] - err_back_rms[-1])/err_forw_rms[-1])
     
     plt.show()
